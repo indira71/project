@@ -1,0 +1,172 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: #333; 
+}
+
+.wrapper{
+    width: 1100px;
+    position: relative;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
+    float :left;
+    font-family: courier;
+    color: #333;
+}
+
+.logo h1 span{
+    font-weight: 200;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #f5f5f5;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comis sans ms';
+    color: #333;
+}
+
+h2{
+    font-family: 'comis sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 25px;
+    color: #333;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+
+.catalog-item{
+    width: 100%;
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.jenis-barang{
+    width: 20%;
+    margin:0 auto;
+}
+
+.jenis-barang img{
+    width: 80%;
+}
+
+.jenis-barang h1{
+    font-weight: 800;
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+}
+
+.patners-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-patner{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-patner img{
+    width: 150px;
+    border-radius: 70%;
+}
+
+#contact{
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family:'comic sans ms';
+    font-weight:800;
+    font-size:30px;
+    margin-bottom:20px;
+    color:#333;
+    width: 100%;
+    line-height: 50px;
+}
